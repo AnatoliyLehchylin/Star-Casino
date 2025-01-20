@@ -1,0 +1,161 @@
+.o-nas {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  gap: 72px 60px;
+  margin: 48px 0 150px 0;
+
+  @media (max-width: 1920px) {
+    margin: 48px 0 120px 0;
+  }
+
+  @media (max-width: 1440px) {
+    gap: 40px;
+    margin: 40px 0 100px 0;
+  }
+
+  @media (max-width: 1024px) {
+    margin: 30px 0 80px 0;
+  }
+
+  @media (max-width: 768px) {
+    margin: 20px 0 60px 0;
+  }
+
+  @media (max-width: 520px) {
+    margin: 15px 0 50px 0;
+    gap: 20px;
+  }
+
+  .o-nas-first-description {
+    display: flex;
+    flex-direction: column;
+    width: 615px;
+
+    p {
+      font-size: 20px;
+      line-height: 160%;
+      color: #1E1E1E;
+      margin-bottom: 26px;
+      text-align: left;
+
+      @media (max-width: 1440px) {
+        font-size: 16px;
+
+        &:last-child {
+          margin-bottom: 0;
+        }
+      }
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+      }
+
+      @media (max-width: 520px) {
+        font-size: 12px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+
+  .img-o-nas-1 {
+    width: 480px;
+    height: 523px;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+      width: 440px;
+      height: auto;
+    }
+
+    @media (max-width: 520px) {
+      width: 260px;
+      height: auto;
+    }
+  }
+
+  .img-o-nas-2 {
+    width: 345px;
+    height: 387px;
+    object-fit: cover;
+
+    @media (max-width: 520px) {
+      width: 260px;
+      height: auto;
+    }
+  }
+
+  .img-o-nas-3 {
+    width: 615px;
+    height: 354px;
+    object-fit: cover;
+
+    @media (max-width: 768px) {
+      width: 440px;
+      height: auto;
+    }
+
+    @media (max-width: 520px) {
+      width: 260px;
+      height: auto;
+    }
+  }
+
+  .o-nas-second-description {
+    display: flex;
+    flex-direction: column;
+    width: 885px;
+
+    p {
+      font-size: 20px;
+      line-height: 160%;
+      color: #1E1E1E;
+      text-align: left;
+      margin-bottom: 40px;
+
+      @media (max-width: 1440px) {
+        font-size: 16px;
+        margin-bottom: 30px;
+      }
+
+      @media (max-width: 768px) {
+        font-size: 14px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 520px) {
+        font-size: 12px;
+        margin-bottom: 15px;
+      }
+    }
+  }
+}
+
+.nasz-pokoj-sub-chapter {
+  margin: 40px 0 48px 0;
+  font-size: 20px;
+  line-height: 160%;
+  color: #1E1E1E;
+
+  @media (max-width: 1440px) {
+    font-size: 16px;
+    margin: 26px 0 26px 0;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+    margin: 20px 0 26px 0;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 14px;
+    margin: 10px 0 26px 0;
+  }
+
+  @media (max-width: 520px) {
+    font-size: 12px;
+    margin: 10px 0 15px 0;
+    line-height: 120%;
+  }
+}

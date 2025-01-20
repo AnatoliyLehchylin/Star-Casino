@@ -1,0 +1,61 @@
+.nasze-zalety {
+  background-image: url("../Images/roulette.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0 20px 20px 20px;
+
+  .nasze-zalety-fon {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 20px 20px 20px;
+    margin: 180px 0;
+    padding: 76px 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(4px);
+
+    @media (max-width: 1024px) {
+      padding: 40px 0;
+      margin: 130px 0;
+    }
+
+    @media (max-width: 768px) {
+      margin: 90px 0;
+    }
+
+    @media (max-width: 520px) {
+      margin: 50px 0;
+    }
+
+    .nasze-zalety-chapter {
+      color: #FFFFFF;
+      margin-bottom: 40px;
+    }
+
+    .nasze-zalety-description {
+      width: 751px;
+      font-size: 20px;
+      color: #FFFFFF;
+      line-height: 160%;
+      text-align: center;
+
+      @media (max-width: 1024px) {
+        width: 600px;
+        font-size: 16px;
+      }
+
+      @media (max-width: 768px) {
+        width: 400px;
+        font-size: 14px;
+      }
+
+      @media (max-width: 520px) {
+        width: 220px;
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,61 @@
+@import "reset.css";
+@import "header";
+@import "main";
+@import "o-nas";
+@import "nasz-pokoj";
+@import "nasze-zalety";
+@import "gry-kazinowe";
+@import "form";
+@import "footer";
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/sf-pro-display/SFPRODISPLAYREGULAR.OTF") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SF Pro Display";
+  src: url("../fonts/sf-pro-display/SFPRODISPLAYSEMIBOLDITALIC.OTF") format("opentype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PP Telegraf";
+  src: url("../fonts/telegraf/Telegraf UltraBold 800.OTF") format("opentype");
+}
+
+@font-face {
+  font-family: "Potta One";
+  src: url("../fonts/potta-one/PottaOne-Regular.ttf") format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: "SF Pro Display", sans-serif;
+}
+
+.main-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

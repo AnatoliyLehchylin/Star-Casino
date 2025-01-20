@@ -1,0 +1,130 @@
+.form-wrap {
+  width: 100%;
+  height: 735px;
+  margin-top: 140px;
+  background-image: url("../Images/form-fon.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 0 25px 25px 25px;
+
+  @media (max-width: 1920px) {
+    margin-top: 130px;
+  }
+
+  @media (max-width: 1440px) {
+    margin-top: 110px;
+  }
+
+  @media (max-width: 1024px) {
+    margin-top: 90px;
+    height: 640px;
+  }
+
+  @media (max-width: 768px) {
+    margin-top: 70px;
+  }
+
+  @media (max-width: 520px) {
+    margin-top: 50px;
+    height: 590px;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    width: 735px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 0 25px 25px 25px;
+    padding: 85px 70px 0 70px;
+
+    @media (max-width: 1440px) {
+      width: 500px;
+      padding: 65px 50px 0 50px;
+    }
+
+    @media (max-width: 1024px) {
+      width: 450px;
+      padding: 65px 40px 0 40px;
+    }
+
+    @media (max-width: 520px) {
+      //width: 260px;
+      width: 100%;
+      padding: 40px 25px 0 25px;
+    }
+  }
+
+  .form-title {
+    font-family: "PP Telegraf", sans-serif;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin-bottom: 48px;
+
+    @media (max-width: 1024px) {
+      font-size: 32px;
+    }
+
+    @media (max-width: 768px) {
+      font-size: 28px;
+    }
+
+    @media (max-width: 520px) {
+      font-size: 20px;
+      margin-bottom: 40px;
+    }
+  }
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 32px;
+
+    input, textarea {
+      width: 100%;
+      height: 72px;
+      padding: 26px 0 26px 24px;
+      background: rgba(255, 255, 255, 0.19);
+      color: #FFFFFF;
+      font-family: "SF Pro Display", sans-serif;
+      font-size: 20px;
+      border: none;
+      outline: none;
+      border-radius: 0 20px 20px 20px;
+
+      @media (max-width: 1024px) {
+        font-size: 18px;
+      }
+
+      @media (max-width: 520px) {
+        font-size: 16px;
+        border-radius: 0 10px 10px 10px;
+      }
+
+      &::placeholder {
+        font-size: 20px;
+        color: #CBCBCB;
+
+        @media (max-width: 1024px) {
+          font-size: 18px;
+        }
+
+        @media (max-width: 520px) {
+          font-size: 16px;
+        }
+      }
+
+      &:focus::placeholder {
+        opacity: 0;
+      }
+    }
+
+    textarea {
+      height: 173px;
+      resize: none;
+    }
+  }
+}
